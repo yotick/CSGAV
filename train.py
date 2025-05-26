@@ -201,7 +201,7 @@ for epoch in range(start_epoch + 1, opt.num_epochs + 1):
                 if torch.cuda.is_available():
                     msi = msi.cuda()
                     hsi = hsi.cuda()
-                _,out = model(hsi, msi)
+                out = model(hsi, msi)
             out = out.cpu()
             count = 0
             for i in range(batch_size):
