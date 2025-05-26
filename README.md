@@ -1,4 +1,4 @@
-# CSGAV
+# CSGAV: 
 
 [![Paper](https://img.shields.io/badge/Paper-IEEE%20TGRS-blue)](https://doi.org/10.1109/TGRS.2025.3573047)
 
@@ -24,16 +24,17 @@ The CSGAV architecture consists of three main components:
 
 ## Requirements
 
-torch
-torchvision
-numpy
-dgl
-tensorboardX
-tqdm
-pandas
-thop
+- torch
+- torchvision
+- numpy
+- dgl
+- tensorboardX
+- tqdm
+- pandas
+- thop
 
 ## Dataset Preparation
+
 The code supports three datasets: Houston, Botswana, and Pavia. Organize your data as follows:
 
 dataset/
