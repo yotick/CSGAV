@@ -37,6 +37,7 @@ The CSGAV architecture consists of three main components:
 
 The code supports three datasets: Houston, Botswana, and Pavia. Organize your data as follows:
 
+```
 dataset/
 ├── Houston/
 │   ├── Train/
@@ -47,6 +48,7 @@ dataset/
 └── Pavia/
     ├── Train/
     └── Test/
+```
 
 ## Training
 To train the CSGAV model on the Houston dataset:
@@ -71,6 +73,7 @@ The fusion results will be saved in the fused directory.
 ## Citation
 If you find this code useful for your research, please cite our paper:
 
+```bibtex
 @article{CSGAV2025,
   title={Multispectral-Hyperspectral Image Fusion via Similarity-Guided Graph Attention and VAE-Transformer},
   author={},
@@ -81,3 +84,4 @@ If you find this code useful for your research, please cite our paper:
   publisher={IEEE},
   doi={10.1109/TGRS.2025.3573047}
 }
+```
