@@ -74,14 +74,16 @@ The fusion results will be saved in the fused directory.
 If you find this code useful for your research, please cite our paper:
 
 ```bibtex
-@article{CSGAV2025,
-  title={Multispectral-Hyperspectral Image Fusion via Similarity-Guided Graph Attention and VAE-Transformer},
-  author={},
-  journal={IEEE Transactions on Geoscience and Remote Sensing},
-  volume={},
-  pages={1-1},
-  year={2025},
-  publisher={IEEE},
-  doi={10.1109/TGRS.2025.3573047}
+  @article{chiMultispectralHyperspectralImageFusion2025,
+  title = {Multispectral-{{Hyperspectral Image Fusion}} via {{Similarity-Guided Graph Attention}} and {{VAE-Transformer}}},
+  author = {Chi, Biwei and Lu, Hangyuan and Liu, Rixian and Yang, Yong and Xu, Lingrong and Wan, Weiguo},
+  date = {2025},
+  journaltitle = {IEEE Transactions on Geoscience and Remote Sensing},
+  shortjournal = {IEEE Trans. Geosci. Remote Sensing},
+  volume = {63},
+  pages = {1--16},
+  issn = {0196-2892, 1558-0644},
+  doi = {10.1109/TGRS.2025.3573047},
+  url = {https://ieeexplore.ieee.org/document/11014272/}  
 }
 ```
